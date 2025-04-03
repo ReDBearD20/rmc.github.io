@@ -2,6 +2,7 @@ import React, { useRef, useState, useEffect } from "react";
 import { motion, press, useInView } from "framer-motion";
 import { toast, Toaster } from "react-hot-toast";
 import TypeWriterEffect from "react-typewriter-effect";
+import BMRC_LOGO1 from "../../public/img/BRMC_logo1.png";
 //import emailjs from "@emailjs/browser"; // Add missing import
 
 // Import images
@@ -79,11 +80,9 @@ const Contact = () => {
           <div className="flex flex-col items-start p-4">
             <a href="/" aria-label="Home">
               <img
-                src={logoRect}
+                src={BMRC_LOGO1}
                 alt="Company Logo"
-                width={150}
-                height={46}
-                className="m-0"
+                className="m-0 w-1/2 h-auto"
               />
             </a>
             {/* <p className="mt-6 text-base leading-7 sm:max-w-sm font-montserrat">
