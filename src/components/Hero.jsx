@@ -1,5 +1,4 @@
 import React from "react";
-// import hero from "../../public/video/const.mp4";
 import hero from "../../public/video/hero.mp4";
 import scrollImg from "../../public/img/scroll.png";
 import { delay, motion } from "framer-motion";
