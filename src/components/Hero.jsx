@@ -1,5 +1,6 @@
 import React from "react";
-import hero from "../../public/video/const.mp4";
+// import hero from "../../public/video/const.mp4";
+import hero from "../../public/video/hero.mp4";
 import scrollImg from "../../public/img/scroll.png";
 import { delay, motion } from "framer-motion";
 const textVariants = {
@@ -28,11 +29,11 @@ const textVariants = {
 
 const Hero = () => {
   return (
-    <div className="relative h-dvh w-screen overflow-x-hidden ">
-      <div className="absolute top-0 left-0 h-dvh w-screen bg-[rgba(0,0,0,0.7)] z-10"></div>
+    <div className="relative h-dvh w-screen overflow-x-hidden border-b border-gray-700">
+      <div className="absolute top-0 left-0 h-dvh w-screen bg-[rgba(0,0,0,0.6)] z-10"></div>
       <div className="h-dvh w-screen">
         <video
-          className="h-dvh w-screen object-cover"
+          className="h-dvh w-screen object-cover opacity-50"
           src={hero}
           autoPlay
           muted

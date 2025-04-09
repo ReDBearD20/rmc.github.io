@@ -45,7 +45,7 @@ const About = () => {
         amount: 0.4,
         once: true, // Enable this for better performance
       }}
-      className="container mx-auto border-b border-gray-700 mt-20"
+      className="container mx-auto border-b mt-20"
       id="about"
     >
       <motion.h2
@@ -80,7 +80,7 @@ const About = () => {
         >
           <motion.h3
             variants={itemVariant}
-            className="text-xl lg:text-3xl tracking-tight text-center lg:text-left mb-8 uppercase font-semibold bg-gradient-to-r from-blue-500 to-sky-800 bg-clip-text text-transparent"
+            className="text-xl lg:text-3xl tracking-tight text-center lg:text-left mb-8 uppercase font-semibold bg-gradient-to-r from-blue-400 to-sky-800 bg-clip-text text-transparent"
           >
             Your Trusted Partner for Ready Mixed Concrete Solutions
           </motion.h3>
@@ -93,9 +93,9 @@ const About = () => {
               <span className="font-semibold">
                 At Bharat RMC, we are dedicated to delivering top-quality Ready
                 Mixed Concrete (RMC) for your construction projects. Established
-                under the visionary leadership of Saurabh Bhatt, who brings over
-                5+ years of industry experience, Bharat RMC has quickly become a
-                trusted name in the construction sector.
+                under the visionary leadership of Rajesh Punshi, who brings over
+                25+ years of industry experience, Bharat RMC has quickly become
+                a trusted name in the construction sector.
               </span>
             </p>
             <p>

@@ -1,9 +1,5 @@
 import React, { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
-import logo from "../../public/img/logo.jpeg";
-import logonew from "../../public/img/logo new.png";
-import logoRect from "../../public/img/logoRect.png";
-import BMRC_LOGO from "../../public/img/BRMC_logo.jpeg";
 import BMRC_LOGO1 from "../../public/img/BRMC_logo1.png";
 import { navItems } from "../constants";
 import { motion, AnimatePresence } from "framer-motion";

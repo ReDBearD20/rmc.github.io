@@ -1,7 +1,7 @@
 import React from "react";
 import { SERVICES_CONTENT } from "../constants";
 import { motion, useInView } from "framer-motion";
-
+//please refer image slider for services
 const containerVariants = {
   initial: {
     opacity: 0,

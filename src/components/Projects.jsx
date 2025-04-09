@@ -58,7 +58,7 @@ const textVariants = {
 
 const Projects = () => {
   return (
-    <section className="container mx-auto border-b" id="projects">
+    <section className="container mx-auto border-b max-w-9xl" id="projects">
       <div className="mb-20 flex flex-col items-center">
         <motion.h2
           initial={{ opacity: 0, y: -20 }}
@@ -69,7 +69,7 @@ const Projects = () => {
         >
           Our{" "}
           <span className="bg-gradient-to-r from-orange-500 to-red-800 text-transparent bg-clip-text font-semibold">
-            Projects
+            Products
           </span>
         </motion.h2>
         <motion.div
@@ -77,7 +77,7 @@ const Projects = () => {
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.2 }}
-          className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3 text-center max-w-7xl"
+          className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3 text-center"
         >
           {PORTFOLIO_PROJECTS.map((project) => (
             <ProjectCard

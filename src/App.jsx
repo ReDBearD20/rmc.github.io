@@ -5,6 +5,7 @@ import Services from "./components/Services";
 import Projects from "./components/Projects";
 import About from "./components/About";
 import Contact from "./components/Contact";
+import ImageSlider from "./components/ImageSlider";
 
 const App = () => {
   return (
@@ -12,7 +13,8 @@ const App = () => {
       <Navbar />
       <div>
         <Hero />
-        <Services />
+        {/* <Services /> */}
+        <ImageSlider />
         <Projects />
         <About />
         <Contact />

@@ -1,93 +1,147 @@
-import service1 from "../../public/img/service1.jpg";
-import service2 from "../../public/img/service2.jpg";
-import service3 from "../../public/img/service3.jpg";
-import project1 from "../../public/img/project1.jpg";
-import project2 from "../../public/img/project2.jpg";
-import project3 from "../../public/img/project1.jpg";
-import { FiFacebook } from "react-icons/fi";
-import { FaSquareXTwitter } from "react-icons/fa6";
-import { RiInstagramLine } from "react-icons/ri";
+import rmc from "../../public/img/ready_mix.jpg";
+import design_mix from "../../public/img/design_mix.jpg";
+import bulk from "../../public/img/bulk.jpg";
+import onsite from "../../public/img/onsite.jpg";
+import pump from "../../public/img/pump.jpg";
+import support from "../../public/img/support.jpg";
 import facebook from "../../public/img/facebook.svg";
 import instagram from "../../public/img/instagram.svg";
 import twitter from "../../public/img/twitter.svg";
+import const1 from "../../public/video/const1.mp4";
+import const2 from "../../public/video/const2.mp4";
+import const4 from "../../public/video/const4.mp4";
+import fRC from "../../public/img/FRC.webp";
+import green from "../../public/img/Green-Concrete.jpg";
+import high from "../../public/img/highstrength.webp";
+import light from "../../public/img/light.jpg";
+import previous from "../../public/img/previous.jpeg";
+import ssc from "../../public/img/ssc.webp";
+import waterproof from "../../public/img/waterproof.jpg";
+import design from "../../public/img/design.jpg";
+import concreteM from "../../public/img/concreteM.jpg";
+
 export const navItems = [
   { label: "Home", href: "#" },
   { label: "About us", href: "#about" },
-  { label: "Product & Services", href: "#services" },
-  { label: "Projects", href: "#projects" },
+  { label: "Services", href: "#services" },
+  { label: "Products", href: "#projects" },
   { label: "Contact Us", href: "#contact" },
 ];
 export const SERVICES_CONTENT = [
   {
-    title: "Kitchen Renovation",
+    title: "Ready Mix Concrete Supply",
     description:
-      "Transform your kitchen into a modern, functional space with our comprehensive renovation services. From custom cabinetry to state-of-the-art appliances, we handle all aspects of kitchen remodeling.",
-    image: service1,
-    alt: "Kitchen Renovation",
+      "Consistent, high-grade concrete delivered to your site on time.",
+    image: rmc,
+    alt: "Ready Mix Concrete Supply",
   },
   {
-    title: "Bathroom Renovation",
+    title: "Custom Concrete Mix Design",
     description:
-      "Create a spa-like retreat in your home with our bathroom renovation services. We offer luxurious fixtures, custom tiling, and innovative designs to elevate your bathroom experience.",
-    image: service2,
-    alt: "Bathroom Renovation",
+      "Mixes tailored to meet project-specific strength and durability requirements.",
+    image: design_mix,
+    alt: "Custom Concrete Mix Design",
   },
   {
-    title: "Living Room Renovation",
+    title: "On-Site Delivery",
     description:
-      "Update your living room with our expert renovation services. We offer custom designs, new flooring options, and stylish lighting solutions to create a warm and inviting space for your family and guests.",
-    image: service3,
-    alt: "Living Room Renovation",
+      "Fleet of transit mixers for prompt and safe delivery to your construction site.",
+    image: onsite,
+    alt: "On-Site Delivery",
+  },
+  {
+    title: "Pumping Services",
+    description:
+      "Concrete pump services for efficient and hassle-free placement, even in hard-to-reach areas.",
+    image: pump,
+    alt: "Pumping Services",
+  },
+  {
+    title: "Technical Support",
+    description:
+      "Expert consultation and quality control support to ensure the right mix and application.",
+    image: support,
+    alt: "Technical Support",
+  },
+  {
+    title: "Bulk Supply for Infrastructure Projects",
+    description:
+      "Large-scale supply for roads, bridges, industrial and commercial projects.",
+    image: bulk,
+    alt: "Bulk Supply for Infrastructure Projects",
   },
 ];
 export const PORTFOLIO_PROJECTS = [
   {
     id: 1,
-    name: "Modern Kitchen Renovation",
+    name: "M-10 to M-50 Grade Concrete",
     description:
-      "A complete overhaul of a traditional kitchen, featuring custom cabinetry, granite countertops, and state-of-the-art appliances.",
-    image: project1,
-    link: "#",
+      "All standard mix grades as per project requirements (M-10, M-15, M-20, M-25, M-30… up to M-50)",
+    image: concreteM,
+    link: "",
   },
   {
     id: 2,
-    name: "Luxurious Bathroom Remodel",
+    name: "Design Mix Concrete",
     description:
-      "Transformed an outdated bathroom into a spa-like retreat with marble tiling, a glass shower, and modern fixtures.",
-    image: project2,
-    link: "#",
+      "Customized mixes designed by expert engineers for specific structural needs.",
+    image: design,
+    link: "",
   },
   {
     id: 3,
-    name: "Outdoor Living Space",
+    name: "Self-Compacting Concrete (SCC)",
     description:
-      "Designed a beautiful outdoor living area, complete with a pergola, fire pit, and cozy seating for entertainment.",
-    image: project3,
-    link: "#",
+      "Highly flowable concrete for complex structures and congested reinforcement.",
+    image: ssc,
+    link: "",
   },
   {
     id: 4,
-    name: "Elegant Living Room Update",
+    name: "High Strength Concrete",
     description:
-      "Updated a living room with new flooring, stylish lighting, and custom-built shelving units.",
-    image: project2,
-    link: "#",
+      "Special mixes for high-rise buildings, bridges, and heavy-load structures.",
+    image: high,
+    link: "",
   },
   {
     id: 5,
-    name: "Basement Conversion",
+    name: "Fiber Reinforced Concrete (FRC)",
     description:
-      "Converted an unused basement into a modern, multi-functional space including a home theater, gym, and guest bedroom.",
-    image: project1,
-    link: "#",
+      "Concrete mixed with steel, glass, or synthetic fibers for added durability.",
+    image: fRC,
+    link: "",
   },
   {
     id: 6,
-    name: "Home Office Transformation",
+    name: "Lightweight Concrete",
     description:
-      "Created a sleek and functional home office, optimizing space with ergonomic furniture, ample storage, and modern decor.",
-    image: project2,
-    link: "#",
+      "Used for insulation and non-structural elements, reducing the dead load.",
+    image: light,
+    link: "",
+  },
+  {
+    id: 7,
+    name: "Pervious Concrete",
+    description:
+      "Eco-friendly concrete that allows water to pass through, used for pavements and drainage solutions.",
+    image: previous,
+    link: "",
+  },
+  {
+    id: 8,
+    name: "Waterproof Concrete",
+    description: "For basements, tanks, and structures exposed to moisture.",
+    image: waterproof,
+    link: "",
+  },
+  {
+    id: 9,
+    name: "Green Concrete",
+    description:
+      "Sustainable concrete mix using recycled or eco-friendly materials.",
+    image: green,
+    link: "",
   },
 ];
 export const footerLinks = [
@@ -124,5 +178,5 @@ export const footerLinks = [
 export const socialMedia = [
   { src: facebook, alt: "facebook logo", href: "https://www.facebook.com" },
   { src: twitter, alt: "twitter logo", href: "https://www.twitter.com" },
-  { src: instagram, alt: "instagram logo", href: "https://www.instaram.com" },
+  { src: instagram, alt: "instagram logo", href: "https://www.instagram.com" },
 ];

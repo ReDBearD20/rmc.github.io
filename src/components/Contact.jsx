@@ -3,13 +3,11 @@ import { motion, press, useInView } from "framer-motion";
 import { toast, Toaster } from "react-hot-toast";
 import TypeWriterEffect from "react-typewriter-effect";
 import BMRC_LOGO1 from "../../public/img/BRMC_logo1.png";
-//import emailjs from "@emailjs/browser"; // Add missing import
+import emailjs from "@emailjs/browser";
 
 // Import images
 import logoRect from "../../public/img/logoRect.png";
 import copyright from "../../public/img/copyright-sign.svg";
-
-// Assume this is imported from constants file
 import { socialMedia } from "../constants";
 import { Scale } from "lucide-react";
 
@@ -42,9 +40,9 @@ const Contact = () => {
     e.preventDefault();
 
     // Use environment variables instead of hardcoded values
-    const serviceId = process.env.REACT_APP_EMAILJS_SERVICE_ID;
-    const templateId = process.env.REACT_APP_EMAILJS_TEMPLATE_ID;
-    const userId = process.env.REACT_APP_EMAILJS_USER_ID;
+    const serviceId = "service_cnelbhd";
+    const templateId = "template_jshorrs";
+    const userId = "yiFJEy8DIdQx1uR8C";
 
     if (!serviceId || !templateId || !userId) {
       toast.error(
@@ -102,7 +100,7 @@ const Contact = () => {
             <div className="flex items-center gap-5 mt-8">
               {socialMedia.map((item) => (
                 <motion.div
-                  whileHover={{ scale: 1.2, backgroundColor: "#6FCDFF" }}
+                  whileHover={{ scale: 1.2, backgroundColor: "#F2A950" }}
                   className="flex justify-center items-center w-12 h-12 bg-white rounded-full hover:opacity-80 transition-opacity"
                   key={item.alt}
                 >
@@ -128,10 +126,10 @@ const Contact = () => {
               <div className="w-full text-center lg:text-start">
                 <h3 className="text-xl font-medium mb-2">Mail</h3>
                 <a
-                  href="mailto:singh.vikram231@gmail.com"
+                  href="mailto:info@bharat-rmc.com"
                   className="text-gray-200 hover:text-gray-400 font-light transition-colors"
                 >
-                  singh.vikram231@gmail.com
+                  info@bharat-rmc.com
                 </a>
               </div>
 
@@ -141,25 +139,26 @@ const Contact = () => {
                   href="tel:+917060605321"
                   className="text-gray-200 hover:text-gray-400 font-light transition-colors"
                 >
-                  +91 7060605321
+                  +91 8006001918
                 </a>
               </div>
 
               <div className="w-full text-center lg:text-start">
                 <h3 className="text-xl font-medium mb-2">Address</h3>
                 <p className="text-gray-200 mb-4 font-light">
-                  123 Main Street, City, Country
+                  0, Near shahi petrol pump, Gangapur Patiya, Kiccha, U.S.Nagar,
+                  Uttarakhand, 263153
                 </p>
                 <div className="w-full h-48 lg:h-64 rounded-lg overflow-hidden">
                   <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3490.423780664993!2d79.42780727605495!3d28.974810768454166!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39a07f4c8051b963%3A0x9a9256b8ecdca725!2sPunshi%20Real%20Estate!5e0!3m2!1sen!2sin!4v1740496808616!5m2!1sen!2sin"
+                    src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3489.9015750226677!2d79.467561975514!3d28.990287475471355!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjjCsDU5JzI1LjAiTiA3OcKwMjgnMTIuNSJF!5e0!3m2!1sen!2sin!4v1744098085651!5m2!1sen!2sin"
                     width="100%"
                     height="100%"
                     style={{ border: 0 }}
                     allowFullScreen=""
                     loading="lazy"
                     referrerPolicy="no-referrer-when-downgrade"
-                    title="Office Location Map"
+                    title="Pannt Location Map"
                   ></iframe>
                 </div>
               </div>
