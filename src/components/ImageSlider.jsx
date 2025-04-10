@@ -84,7 +84,7 @@ function ServicesCarousel({ data }) {
               type="button"
               onClick={onClickHandler}
               title={label}
-              className="absolute z-20 top-1/2 -translate-y-1/2 w-10 h-10 md:w-12 md:h-12 cursor-pointer bg-[rgb(61,64,71)] rounded-full flex items-center justify-center shadow hover:bg-[rgb(118,125,135)] transition-colors left-2 sm:left-4 md:left-5"
+              className="absolute z-20 top-1/2 -translate-y-1/2 w-10 h-10 md:w-12 md:h-12 cursor-pointer rounded-full flex items-center justify-center shadow transition-colors left-2 sm:left-4 md:left-5 text-orange-600"
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.95 }}
               initial={{ x: -10, opacity: 0 }}
@@ -115,7 +115,7 @@ function ServicesCarousel({ data }) {
               type="button"
               onClick={onClickHandler}
               title={label}
-              className="absolute z-20 top-1/2 -translate-y-1/2 w-10 h-10 md:w-12 md:h-12 cursor-pointer bg-[rgb(61,64,71)] rounded-full flex items-center justify-center shadow hover:bg-[rgb(118,125,135)] transition-colors right-2 sm:right-4 md:right-5"
+              className="absolute z-20 top-1/2 -translate-y-1/2 w-10 h-10 md:w-12 md:h-12 cursor-pointer  rounded-full flex items-center justify-center shadow text-orange-600 transition-colors right-2 sm:right-4 md:right-5 "
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.95 }}
               initial={{ x: 10, opacity: 0 }}
